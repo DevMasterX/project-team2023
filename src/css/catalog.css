@@ -9,6 +9,9 @@
 .link {
   text-decoration: none;
 }
+.section-catalog {
+  padding-top: 80px;
+}
 .button-roll {
   margin-top: 40px;
   font-style: normal;
@@ -81,29 +84,32 @@ img {
 }
 .card {
   justify-content: center;
+  margin-bottom: 14px;
 }
 
 .overlay {
-  margin-bottom: 20px;
+  margin-bottom: 22px;
   width: 236px;
   height: 53px;
-  /* font-weight: 400;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.29; */
+  line-height: 1.29;
   letter-spacing: -0.01em;
   color: rgba(255, 255, 255, 0.5);
 }
 .overlay-p {
-  /* font-weight: 400;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.29; */
+  line-height: 1.29;
   letter-spacing: -0.01em;
   color: rgba(255, 255, 255, 0.5);
+  width: 162px;
+  height: 144px;
 }
 .overlay-h {
-  /* font-weight: 400;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.29; */
+  line-height: 1.29;
   letter-spacing: -0.02em;
   color: white;
   margin-bottom: 10px;
@@ -147,13 +153,16 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  .section-catalog {
+    padding-top: 128px;
+  }
   .button-roll {
     width: 122px;
     height: 50px;
     padding: 18px 35px 18px 35px;
   }
   .watch-set {
-    gap: 32px 32px;
+    gap: 40px 32px;
   }
   .watch-set > .section-catalog-item {
     flex-basis: calc((100% - 32px) / 2);
@@ -176,6 +185,10 @@ img {
   }
   .section-cat-h1 {
     margin-bottom: 64px;
+  }
+  .section-catalog {
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 }
 
