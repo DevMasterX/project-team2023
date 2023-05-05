@@ -11,6 +11,7 @@
 }
 .section-catalog {
   padding-top: 80px;
+  padding-bottom: 80px;
 }
 .button-roll {
   margin-top: 40px;
@@ -30,7 +31,9 @@
   border: transparent;
   border-radius: 8px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  float: right;
+  /* float: right; */
+  display: block;
+  margin: 0 0 0 auto;
 }
 .button-roll:hover,
 .button-roll:focus {
@@ -62,12 +65,6 @@ img {
   color: #141414;
   /* margin-top: 57px; */
 }
-/* .text-ellipsis {
-    white-space: nowrap; 
-    overflow: hidden; 
-    text-overflow: ellipsis;
-  } */
-
 .catalog-text {
   font-family: 'Epilogue';
   font-style: normal;
@@ -83,6 +80,7 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
+  margin-bottom: 40px;
 }
 
 .section-catalog-item * {
@@ -94,8 +92,6 @@ img {
   position: relative;
   overflow: hidden;
   padding: 43px 30px 43px 30px;
-  width: 100%;
-  height: 100%;
 }
 
 .overlay {
@@ -146,9 +142,22 @@ img {
   transform: translateY(0%);
 }
 
+.ovelay-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1e2827;
+  overflow: auto;
+  transform: translateY(100%);
+  transition: transform 250ms linear;
+}
+
 @media screen and (min-width: 768px) {
   .section-catalog {
     padding-top: 128px;
+    padding-bottom: 128px;
   }
   .button-roll {
     width: 122px;
@@ -164,6 +173,9 @@ img {
   .section-cat-h1 {
     font-size: 40px;
     line-height: 1.1;
+  }
+  .ovelay-text {
+    padding: 40px 60px 40px 40px;
   }
 }
 
@@ -184,12 +196,13 @@ img {
     padding-top: 80px;
     padding-bottom: 80px;
   }
-  .card{
+  .ovelay-text {
+    padding: 20px 20px 20px 20px;
+  }
+  .card {
     padding: 26px 0 25px 0;
   }
-  .ovelay-text {
-    padding: 46px 60px 39px 40px;
-}}
+}
 
 @media screen and (max-width: 1279px) {
   .watch-add {
