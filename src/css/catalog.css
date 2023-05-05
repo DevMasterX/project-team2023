@@ -63,10 +63,36 @@ img {
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: #141414;
-  width: 276px;
+  width: 265px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.catalog-title-one{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #141414;
+    width: 279px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.catalog-title-two{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #141414;
+    width: 279px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .catalog-text {
   font-family: 'Epilogue';
@@ -201,6 +227,15 @@ img {
   }
   .overlay {
     margin-bottom: 20px;
+  }
+  .catalog-title {
+    width: 265px;
+  }
+  .catalog-title-one{
+      width: 275px;
+  }
+  .catalog-title-two{
+    width: 195px;
   }
 
 }
