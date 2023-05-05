@@ -1,1 +1,84 @@
+<div class="backdrop is-hidden">
+  <div class="modal" data-modal>
+    <button type="button" data-modal-close class="modal-close-btn">
+      <svg class="close-icon" width="10" height="10">
+        <use href="../img/buy-now/icon/close-btn.svg#icon-close-btm"></use>
+      </svg>
+    </button>
 
+    <div class="modal-watch-model">
+      <img
+        srcset="../img/buy-now/mob-2x.jpg 2x"
+        src="../img/buy-now/mob1.jpg"
+        alt="watch"
+        width="276"
+        height="326"
+      />
+      <h2 class="modal-model">Tube Watch S42 Date Steel With Black...</h2>
+      <p class="modal-price">$395</p>
+    </div>
+
+    <form class="modal-form">
+      <div class="modal-field">
+        <label for="user-name" class="input-text">Full name</label>
+        <div class="input-wrap">
+          <input
+            type="text"
+            id="user-name"
+            name="user-name"
+            class="modal-input"
+            placeholder="Enter your full name"
+            required
+          />
+        </div>
+      </div>
+      <div class="modal-field">
+        <label for="user-email" class="input-text">Email</label>
+        <div class="input-wrap">
+          <input
+            type="email"
+            name="user-email"
+            id="user-email"
+            class="modal-input"
+            placeholder="Enter your email"
+            required
+            title="your email"
+          />
+        </div>
+      </div>
+
+      <div class="modal-field">
+        <label for="user-tel" class="input-text">Card number</label>
+        <div class="input-wrap">
+          <input
+            type="card"
+            name="user-tel"
+            id="user-tel"
+            class="modal-input"
+            placeholder="Enter card"
+            required
+            title="enter your card number"
+          />
+        </div>
+      </div>
+      <div class="modal-field-comment">
+        <label for="user-text" class="input-text">Comments</label>
+        <textarea
+          name="user-text"
+          id="user-text"
+          class="modal-textarea"
+          placeholder="Enter your text"
+        ></textarea>
+      </div>
+
+      <button class="modal-button btn" type="submit">Submit</button>
+
+      <span class="modal-privacy">
+        By clicking on "Submit" button, you agree to our
+        <a href="#"> Privacy Policy,</a> and allow Prommodo to use this
+        information for marketing purposes.
+      </span>
+    </form>
+  </div>
+</div>
+<script src="../js/modal.js"></script>
