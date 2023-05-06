@@ -1,7 +1,7 @@
-.section-new-watches{
-padding-bottom: 80px;
+.section-new-watches {
+  padding-bottom: 80px;
 }
-.section-new-h2 {
+.section-new-h1 {
   font-weight: 300;
   font-size: 12px;
   line-height: 1.17;
@@ -9,7 +9,7 @@ padding-bottom: 80px;
   color: rgba(20, 20, 20, 0.4);
   margin-bottom: 8px;
 }
-.section-new-h1 {
+.section-new-h2 {
   font-weight: 600;
   font-size: 32px;
   line-height: 1.25;
@@ -17,15 +17,32 @@ padding-bottom: 80px;
   color: #141414;
   margin-bottom: 40px;
 }
-.new-watch{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+.new-watch {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 @media screen and (min-width: 768px) {
-
+  .section-new-watches {
+    padding-bottom: 128px;
+  }
+  .section-new-h2 {
+    font-size: 40px;
+    line-height: 1.1;
+    color: #1e2827;
+    width: 448px;
+  }
 }
 @media screen and (min-width: 1280px) {
-    
+  .section-new-watches {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .section-new-h2 {
+    margin-bottom: 80px;
+  }
+  .new-watch {
+    gap: 24px;
+  }
 }
