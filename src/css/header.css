@@ -127,11 +127,11 @@
   color: #ffffff;
 }
 
-@media screen and (min-width: 375px) {
+/* @media screen and (min-width: 375px) {
   .container {
     width: 100%;
   }
-}
+} */
 @media screen and (max-width: 768px) {
   .container {
     width: 767px;
