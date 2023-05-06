@@ -32,6 +32,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
+body {
+  font-family: 'Epilogue';
+}
+
 .container {
   width: 100%;
   margin: 0 auto;
