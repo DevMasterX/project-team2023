@@ -19,46 +19,20 @@
       referrerpolicy="no-referrer"
     />
     
-    <script type="module" crossorigin src="/project-team2023/assets/index-1e7eb05e.js"></script>
-    <link rel="stylesheet" href="/project-team2023/assets/index-bf88c3ed.css">
+    <link rel="stylesheet" href="/project-team2023/assets/index-229f996c.css">
   </head>
   <body>
     <header class="header">
-     <div>
-          <a href="" class="header-logo">thewatchspot
-          <svg class="logo-icon" width="" height="">
-               <use href="../img/icons.svg#logo"></use>
-          </svg>
-          <button
-        class="menu-toggle js-open-menu"
-        aria-expanded="false"
-        aria-controls="mobile-menu">
-        <svg class="burger-icon" width="24" height="24">
-               <use href="../img/icons.svg#burger"></use>
-        </svg>
-     </button>
-     </div>
- <!-- ------------ mobile-menu -------- -->
-     <div class="menu-container js-menu-container" id="mobile-menu">
-          <button class="menu-toggle js-close-menu">
-          <svg class="close-icon" width="24" height="24">
-               <use href="../img/icons.svg#close"></use>
-          </svg></button>
-        <nav>
-           <ul class="mobile-menu list">
-            <li class="mobile-menu-item">
-              <a href="./about-us.html" class="mobile-menu-link link">About us</a>
-            </li>
-            <li class="mobile-menu-item">
-              <a href="./catalog.html" class="mobile-menu-link link"
-                >Catalog</a>
-            </li>
-            <li class="mobile-menu-item">
-              <a href="./sale.html" class="mobile-menu-link link">Sale</a>
-            </li>
-          </ul>
-        </nav>
-     </div>
+  <a href="" class="header-logo">
+    <img src="../img/" alt="">
+    </svg>
+    thewatchspot
+  </a>
+  <button class="menu-open" data-menu-open>
+    <svg class="burger-icon" width="24" height="24">
+      <use href="../img/icons.svg#burger"></use>
+    </svg>
+  </button>
 </header>
 
     <main>
@@ -615,7 +589,7 @@
     </main>
     <footer></footer>
 
-    <div class="backdrop is-hidden">
+    <!-- <div class="backdrop is-hidden">
   <div class="modal" data-modal>
     <button type="button" data-modal-close class="modal-close-btn">
       <svg class="icon-x" width="12" height="12">
@@ -668,7 +642,7 @@
         <label for="user-tel" class="input-text">Card number</label>
         <div class="input-wrap">
           <input
-            type="card"
+            type="number"
             name="user-tel"
             id="user-tel"
             class="modal-input"
@@ -698,10 +672,37 @@
       </div>
     </form>
   </div>
-</div>
-<script src="../js/modal.js"></script>
+</div> -->
+<!-- <script src="../js/modal.js"></script> -->
 
-    <section></section>
+    <div class="menu-container is-hidden" data-menu>
+  <div class="mobile-logo">
+    <a href="" class="header-logo">
+      <svg class="logo-icon" width="14" height="14">
+        <use href="../img/icons.svg#logo"></use>
+      </svg>
+      thewatchspot
+    </a>
+  </div>
+  <button class="menu-close" data-menu-close>
+    <svg class="close-icon" width="24" height="24">
+      <use href="../img/icons.svg#close"></use>
+    </svg>
+  </button>
+  <nav>
+    <ul class="mobile-menu list">
+      <li class="mobile-menu-item">
+        <a href="#about-us" class="mobile-menu-link link">About us</a>
+      </li>
+      <li class="mobile-menu-item">
+        <a href="#catalog" class="mobile-menu-link link">Catalog</a>
+      </li>
+      <li class="mobile-menu-item">
+        <a href="#sale" class="mobile-menu-link link">Sale</a>
+      </li>
+    </ul>
+  </nav>
+</div>
 
 
     <!-- <section>
@@ -711,8 +712,8 @@
     </section> -->
 
     <!-- Loads the specified .html file -->
-    <!-- ENOENT: no such file or directory, open '/home/runner/work/project-team2023/project-team2023/src/partials/vite-promo.html' -->
+    ENOENT: no such file or directory, open '/home/runner/work/project-team2023/project-team2023/src/partials/vite-promo.html'
 
-    
+    <!-- <script type="module" src="/main.js"></script> -->
   </body>
 </html>
