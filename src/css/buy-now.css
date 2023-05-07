@@ -103,6 +103,9 @@ img {
   color: #141414;
   margin-bottom: 4px;
 }
+.modal-watch-model {
+  margin-bottom: 40px;
+}
 .modal-price {
   font-style: normal;
   font-weight: 400;
@@ -210,12 +213,7 @@ img {
 @media screen and (min-width: 768px) {
   .modal {
     max-width: 744px;
-
-    /* height: 670px; */
     overflow: scroll;
-    /* max-height: calc(100vh - 80px);
-    overflow-y: auto; */
-
     padding: 40px;
     background-color: #ffffff;
     display: flex;
@@ -225,6 +223,9 @@ img {
   .input-text {
     font-size: 14px;
     line-height: 1.29;
+  }
+  .modal-watch-model {
+    margin: 0 auto;
   }
   .icon-x {
     width: 12px;
