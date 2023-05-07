@@ -8,12 +8,6 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
-/* button {
-  display: block;
-  cursor: pointer;
-  border: none;
-  border-radius: 4px;
-} */
 
 img {
   display: block;
@@ -73,7 +67,8 @@ img {
   color: #ffffff;
 }
 .icon-x {
-  fill: rgba(20, 20, 20, 0.8);
+  width: 10px;
+  height: 10px;
 }
 .is-hidden {
   opacity: 0;
@@ -143,7 +138,7 @@ img {
   width: 100%;
   height: 120px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 4px;
+  border-radius: 8px;
   padding-left: 16px;
   padding-top: 12px;
   outline: transparent;
@@ -182,29 +177,21 @@ img {
   letter-spacing: -0.02em;
   color: rgba(20, 20, 20, 0.4);
 }
-/* .modal-watch-btn {
-  display: flex;
-  align-items: center;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  margin-bottom: 24px;
-} */
+.policy {
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 768px) {
   .modal {
-    position: absolute;
     max-width: 744px;
     height: 670px;
     overflow: scroll;
-    /* max-height: calc(100vh - 80px);
-    overflow-y: auto; */
+    /* max-height: calc(100vh - 80px); */
+    /* overflow-y: auto; */
     width: 100%;
     top: 50%;
     left: 50%;
     padding: 40px;
-    /* min-height: 500px; */
     background-color: #ffffff;
     display: flex;
     transform: translate(-50%, -50%) scale(1) rotate(0);
@@ -221,15 +208,26 @@ img {
     color: #141414;
     margin-bottom: 12px;
   }
+  .icon-x {
+    width: 12px;
+    height: 12px;
+  }
   .modal-form {
     width: 368px;
     display: flex;
     flex-direction: column;
   }
+  .modal-textarea {
+    width: 100%;
+    height: 166px;
+  }
+
   .modal-watch-btn {
     margin: 0 auto;
   }
   .modal-close-btn {
+    top: 20px;
+    right: 20px;
     width: 24px;
     height: 24px;
   }
@@ -238,35 +236,41 @@ img {
   }
   .modal-watch-model {
     padding-right: 20px;
+    gap: 20px;
+  }
+  .btn {
+    height: 50px;
+    display: block;
+    border-radius: 8px;
+    padding: 18px 153px;
+    width: 100%;
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1180px) {
   .modal {
     position: absolute;
     max-width: 904px;
     height: 694px;
-    overflow: scroll;
+    /* overflow: scroll;
 
     width: 100%;
     top: 50%;
     left: 50%;
     padding: 40px;
-    /* min-height: 500px; */
     background-color: #ffffff;
     display: flex;
     transform: translate(-50%, -50%) scale(1) rotate(0);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
   }
   .input-text {
-    display: block;
+    /* display: block; */
 
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.02em;
-    color: #141414;
     margin-bottom: 12px;
   }
   .modal-input {
@@ -278,22 +282,20 @@ img {
     flex-direction: column;
   }
   .modal-watch-btn {
-    /* margin-right: 20px;
-    width: 508px; */
     max-width: 0 auto;
   }
-  .modal-close-btn {
-    width: 24px;
-    height: 24px;
-  }
+
   .modal-textarea {
     height: 166px;
   }
 
-  .modal-field {
+  .modal-field:not(:last-child) {
     margin-bottom: 24px;
   }
   .modal-field-comment {
     margin-bottom: 40px;
+  }
+  .modal-watch-model {
+    padding-right: 40px;
   }
 }
