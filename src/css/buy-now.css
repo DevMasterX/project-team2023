@@ -224,9 +224,7 @@ img {
     font-size: 14px;
     line-height: 1.29;
   }
-  .modal-watch-model {
-    margin: 0 auto;
-  }
+
   .icon-x {
     width: 12px;
     height: 12px;
@@ -236,9 +234,7 @@ img {
     display: flex;
     flex-direction: column;
   }
-  .modal-watch-model {
-    margin: 0;
-  }
+
   .modal-textarea {
     width: 100%;
     height: 166px;
@@ -258,7 +254,7 @@ img {
   }
   .modal-watch-model {
     padding-right: 20px;
-    gap: 20px;
+    margin: 0;
   }
 
   .modal-textarea {
