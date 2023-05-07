@@ -356,13 +356,13 @@ body {
   .sale {
     display: flex;
     background-color: #efefef;
-    padding-left: 98px;
-    padding-right: 98px;
   }
 
   .sale-container {
     display: block;
     align-content: center;
+    padding-left: 98px;
+    padding-right: 98px;
   }
 
   .sale-content {
@@ -432,7 +432,7 @@ body {
 
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1200px;
+    width: 1280px;
   }
 
   .sale {
