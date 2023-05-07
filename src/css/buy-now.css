@@ -17,6 +17,7 @@ img {
 }
 
 .backdrop {
+  z-index: 20;
   position: fixed;
   top: 0;
   width: 100%;
