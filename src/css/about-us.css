@@ -50,6 +50,7 @@
     }
   }
 }
+/*----------------------------BREAKPOINT-------------------------------- */
 @media screen and (max-width: 767px) {
   .about-item:not(:last-child) {
     margin-top: 40px;
@@ -112,6 +113,7 @@
     }
   }
 }
+/*----------------------------BREAKPOINT-------------------------------- */
 @media screen and (max-width: 1279px) {
   .about-title {
     margin-right: 40px;
