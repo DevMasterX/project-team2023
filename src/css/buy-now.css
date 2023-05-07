@@ -30,11 +30,6 @@ img {
 /* .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scaleY(0) rotate(-90deg);
 } */
-
-.backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0);
-}
-
 .modal {
   position: absolute;
   max-width: 335px;
@@ -262,7 +257,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1180px) {
+@media screen and (min-width: 1280px) {
   .modal {
     max-width: 904px;
   }
