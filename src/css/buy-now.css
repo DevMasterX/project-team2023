@@ -262,8 +262,6 @@ img {
   }
   .modal-form {
     min-width: 508px;
-    /* display: flex;
-    flex-direction: column; */
   }
   .modal-watch-btn {
     max-width: 0 auto;
