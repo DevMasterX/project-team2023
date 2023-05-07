@@ -64,3 +64,6 @@ body {
     padding-right: 52px;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
