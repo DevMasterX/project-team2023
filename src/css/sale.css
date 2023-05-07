@@ -14,11 +14,11 @@
   -webkit-text-size-adjust: 100%;
 }
 
-.container {
+/* .container {
   width: 100%;
   margin: 0 auto;
   padding: 0px 20px;
-}
+} */
 
 h1,
 h2,
@@ -56,12 +56,12 @@ body {
   font-family: 'Epilogue';
 }
 
-.container {
+/* .container {
   width: 100%;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
-}
+} */
 
 .sale {
   background-color: #efefef;
@@ -201,12 +201,12 @@ body {
 }
 
 @media screen and (min-width: 375px) {
-  .container {
+  /* .container {
     width: 375px;
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
-  }
+  } */
 
   .sale {
     padding: 80px 0;
@@ -349,7 +349,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    /* width: 768px; */
     margin: 0 auto;
   }
 
@@ -427,9 +427,9 @@ body {
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
+  /* .container {
     width: 1280px;
-  }
+  } */
 
   .sale {
     background-color: #efefef;
