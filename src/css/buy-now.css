@@ -30,6 +30,11 @@ img {
 /* .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scaleY(0) rotate(-90deg);
 } */
+
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0);
+}
+
 .modal {
   position: absolute;
   max-width: 335px;
