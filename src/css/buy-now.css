@@ -30,12 +30,11 @@ img {
 /* .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scaleY(0) rotate(-90deg);
 } */
-<<<<<<< Updated upstream
-=======
-/* .backdrop.is-hidden .modal {
+
+.backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0);
-} */
->>>>>>> Stashed changes
+}
+
 .modal {
   position: absolute;
   max-width: 335px;
@@ -49,7 +48,10 @@ img {
   /* min-height: 500px; */
   background-color: #ffffff;
   /* display: flex; */
-  transform: translate(-50%, -50%) scale(1) rotate(0);
+  /* transform: translate(-50%, -50%) scale(1) rotate(0);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+
+  transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close-btn {
@@ -77,11 +79,15 @@ img {
   width: 10px;
   height: 10px;
 }
-/* .is-hidden {
+.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-} */
+}
+
+.no-scroll {
+  overflow: hidden;
+}
 
 .modal-watch-description {
   margin: 0;
@@ -251,11 +257,7 @@ img {
   .modal-textarea {
     height: 166px;
   }
-<<<<<<< Updated upstream
   .modal-price {
-=======
-  .modal-privacy {
->>>>>>> Stashed changes
     margin: 0;
   }
 }
