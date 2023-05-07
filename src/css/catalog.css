@@ -48,7 +48,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-.section-cat-h1 {
+.section-cat-h2 {
   font-weight: 600;
   font-size: 32px;
   line-height: 1.25;
@@ -216,7 +216,7 @@ img {
   .watch-set > .section-catalog-item {
     flex-basis: calc((100% - 32px) / 2);
   }
-  .section-cat-h1 {
+  .section-cat-h2 {
     font-size: 40px;
     line-height: 1.1;
   }
