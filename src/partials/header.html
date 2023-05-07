@@ -1,12 +1,62 @@
 <header class="header">
-  <a href="" class="header-logo">
-    <img src="../img/" alt="">
-    </svg>
-    thewatchspot
-  </a>
-  <button class="menu-open" data-menu-open>
-    <svg class="burger-icon" width="24" height="24">
-      <use href="../img/icons.svg#burger"></use>
-    </svg>
-  </button>
+  <div class="header-main container">
+    <nav class="logo-wrap">
+      <a href="" class="header-logo">
+        <img class="header-img" src="../img/header-logo.svg" alt="site logo" />
+        <span> thewatchspot</span>
+      </a>
+    </nav>
+    <button
+      class="btn-open js-open-menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg class="burger-icon" width="24" height="24">
+        <use href="../img/icons.svg#burger"></use>
+      </svg>
+    </button>
+
+    <nav class="header-navigation">
+      <ul class="header-menu list">
+        <li class="header-item">
+          <a href="#about-us" class="header-link link">About us</a>
+        </li>
+        <li class="header-item">
+          <a href="#catalog" class="header-link link">Catalog</a>
+        </li>
+        <li class="header-item">
+          <a href="#sale" class="header-link link">Sale</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header-phone">
+      <a class="phone-link link" href="tel:+380441111111">+38 044 111 11 11</a>
+    </div>
+  </div>
+  <div class="menu-container js-menu-container" id="mobile-menu">
+    <a href="" class="menu-header-logo">
+      <img class="header-img" src="../img/header-logo.svg" alt="site logo" />
+      <span>thewatchspot</span>
+    </a>
+
+    <button class="menu-toggle js-close-menu">
+      <svg class="close-icon" width="12" height="12">
+        <use href="../img/icons.svg#icon-x"></use>
+      </svg>
+    </button>
+    <nav>
+      <ul class="mobile-menu list">
+        <li>
+          <a href="#about-us" class="mobile-menu-link link">About us</a>
+        </li>
+        <li>
+          <a href="#catalog" class="mobile-menu-link link">Catalog</a>
+        </li>
+        <li>
+          <a href="#sale" class="mobile-menu-link link">Sale</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </header>
