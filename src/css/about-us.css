@@ -12,7 +12,6 @@
   }
   .section {
     padding-top: 40px;
-    padding-bottom: 80px;
   }
   .about-title {
     font-family: 'Epilogue', sans-serif;
@@ -66,7 +65,7 @@
   }
   .section {
     padding-top: 64px;
-    padding-bottom: 128px;
+    padding-bottom: 48px;
   }
   .about-general {
     display: flex;
@@ -87,7 +86,11 @@
     letter-spacing: -0.02em;
     color: #141414;
   }
-
+  .about-item-general {
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+  }
   .about-item-left {
     width: 220px;
     height: 162px;
@@ -118,9 +121,9 @@
   .about-title {
     margin-right: 40px;
   }
-  .about-item:not(:last-child) {
+  /* .about-item:not(:last-child) {
     margin-right: 20px;
-  }
+  } */
 }
 /*----------------------------DESKTOP-------------------------------- */
 @media screen and (min-width: 1280px) {
@@ -131,7 +134,7 @@
   }
   .section {
     padding-top: 80px;
-    padding-bottom: 160px;
+    padding-bottom: 80px;
   }
   .about-item-left {
     width: 439px;
@@ -142,7 +145,11 @@
     height: 90px;
   }
   .about-item {
-    margin: 0 auto;
+  }
+  .about-item-general {
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
   }
   .about-gif {
     background-image: url(../img/about-us/about-bg-tablet.jpg);
@@ -150,7 +157,6 @@
     width: 704px;
     height: 465px;
     object-fit: cover;
-    margin: 0 auto;
   }
 
   @media (min-device-pixel-ratio: 2),
