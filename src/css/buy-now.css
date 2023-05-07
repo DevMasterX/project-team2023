@@ -30,6 +30,12 @@ img {
 /* .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scaleY(0) rotate(-90deg);
 } */
+<<<<<<< Updated upstream
+=======
+/* .backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0);
+} */
+>>>>>>> Stashed changes
 .modal {
   position: absolute;
   max-width: 335px;
@@ -98,7 +104,6 @@ img {
   line-height: 1.17;
   letter-spacing: -0.02em;
   color: rgba(20, 20, 20, 0.5);
-  margin-bottom: 40px;
 }
 
 .modal-form {
@@ -131,6 +136,9 @@ img {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-policy {
+  text-decoration: underline;
 }
 .modal-input:not(focus):not(:placeholder-shown):valid {
   border-color: green;
@@ -243,7 +251,11 @@ img {
   .modal-textarea {
     height: 166px;
   }
+<<<<<<< Updated upstream
   .modal-price {
+=======
+  .modal-privacy {
+>>>>>>> Stashed changes
     margin: 0;
   }
 }
