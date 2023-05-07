@@ -1,9 +1,5 @@
 h1,
 h2,
-h3,
-h4,
-h5,
-h6,
 p {
   margin-top: 0;
   margin-bottom: 0;
@@ -27,9 +23,9 @@ img {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .backdrop.is-hidden .modal {
+.backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scaleY(0) rotate(-90deg);
-} */
+}
 
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0);
@@ -45,12 +41,7 @@ img {
   top: 50%;
   left: 50%;
   padding: 40px 20px;
-  /* min-height: 500px; */
   background-color: #ffffff;
-  /* display: flex; */
-  /* transform: translate(-50%, -50%) scale(1) rotate(0);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
-
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -118,10 +109,6 @@ img {
   margin-bottom: 40px;
 }
 
-.modal-form {
-  /* display: flex;
-  flex-direction: column; */
-}
 .modal-field {
   margin-bottom: 18px;
 }
