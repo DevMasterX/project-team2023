@@ -111,6 +111,9 @@ img {
   letter-spacing: -0.02em;
   color: rgba(20, 20, 20, 0.5);
 }
+.modal-watch-model {
+  margin-bottom: 40px;
+}
 
 .modal-form {
   /* display: flex;
@@ -231,6 +234,9 @@ img {
     width: 368px;
     display: flex;
     flex-direction: column;
+  }
+  .modal-watch-model {
+    margin: 0;
   }
   .modal-textarea {
     width: 100%;
