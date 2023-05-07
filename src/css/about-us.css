@@ -1,0 +1,170 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*----------------------------MOBILE-------------------------------- */
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+  .section {
+    padding-top: 40px;
+  }
+  .about-title {
+    font-family: 'Epilogue', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #1e2827;
+  }
+  .about-item {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #141414;
+  }
+
+  .about-gif {
+    background-image: url(../img/about-us/about-bg-mobile.jpg);
+    background-size: 335px 365px;
+    width: 335px;
+    height: 365px;
+    object-fit: cover;
+    display: block;
+    margin-top: 40px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .about-gif {
+      background-image: url('../img/about-us/about-bg-mobile-2x.jpg');
+    }
+  }
+}
+/*----------------------------BREAKPOINT-------------------------------- */
+@media screen and (max-width: 767px) {
+  .about-item:not(:last-child) {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+}
+/*----------------------------TABLET-------------------------------- */
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .section {
+    padding-top: 64px;
+    padding-bottom: 48px;
+  }
+  .about-general {
+    display: flex;
+  }
+  .about-title {
+    font-family: 'Epilogue', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: #1e2827;
+  }
+  .about-item {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #141414;
+  }
+  .about-item-general {
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+  }
+  .about-item-left {
+    width: 220px;
+    height: 162px;
+  }
+  .about-item-right {
+    width: 250px;
+    height: 144px;
+  }
+  .about-gif {
+    background-image: url(../img/about-us/about-bg-tablet.jpg);
+    background-size: 704px 465px;
+    width: 704px;
+    height: 465px;
+    object-fit: cover;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .about-gif {
+      background-image: url('../img/about-us/about-bg-tablet-2x.jpg');
+    }
+  }
+}
+/*----------------------------BREAKPOINT-------------------------------- */
+@media screen and (max-width: 1279px) {
+  .about-title {
+    margin-right: 40px;
+  }
+  /* .about-item:not(:last-child) {
+    margin-right: 20px;
+  } */
+}
+/*----------------------------DESKTOP-------------------------------- */
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-left: 52px;
+    padding-right: 52px;
+  }
+  .section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .about-item-left {
+    width: 439px;
+    height: 90px;
+  }
+  .about-item-right {
+    width: 380px;
+    height: 90px;
+  }
+  .about-item {
+  }
+  .about-item-general {
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+  }
+  .about-gif {
+    background-image: url(../img/about-us/about-bg-tablet.jpg);
+    background-size: 704px 465px;
+    width: 704px;
+    height: 465px;
+    object-fit: cover;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .about-gif {
+      background-image: url('../img/about-us/about-bg-tablet-2x.jpg');
+    }
+  }
+}
