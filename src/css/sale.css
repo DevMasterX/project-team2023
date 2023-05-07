@@ -441,10 +441,6 @@ body {
     padding-left: 32px;
   }
 
-  .sale-text-section:not(:last-child) {
-    margin-bottom: 50px;
-  }
-
   .sale-title {
     margin-bottom: 32px;
     font-weight: 600;
