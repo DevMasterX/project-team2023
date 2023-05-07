@@ -494,6 +494,11 @@ body {
     color: #141414;
   }
 
+  .sale-text-section {
+    width: 369px;
+    height: 126px;
+  }
+
   .sale-text-gray {
     font-weight: 400;
     font-size: 14px;
