@@ -17,17 +17,17 @@
 </head>
 
 <body>
-  <load="partials/header.html" />
+  <load src="partials/header.html" />
   <main>
-    <load="partials/hero.html" />
-    <load="partials/about-us.html" />
-    <load="partials/catalog.html" />
-    <load="partials/new-watches.html" />
-    <load="partials/sale.html" />
+    <load src="partials/hero.html" />
+    <load src="partials/about-us.html" />
+    <load src="partials/catalog.html" />
+    <load src="partials/new-watches.html" />
+    <load src="partials/sale.html" />
   </main>
-  <load="partials/footer.html" />
-  <load="partials/buy-now.html" />
-  <load="partials/burger-menu.html" />
+  <load src="partials/footer.html" />
+  <load src="partials/buy-now.html" />
+  <load src="partials/burger-menu.html" />
 
   <!-- <section>
       <h1>Lorem ipsum dolor sit amet.</h1>
@@ -36,7 +36,7 @@
     </section> -->
 
   <!-- Loads the specified .html file -->
-  <load="partials/vite-promo.html" />
+  <load src="partials/vite-promo.html" />
 
   <script type="module" src="/main.js"></script>
   <!-- Swiper -->
@@ -53,6 +53,9 @@
       navigation: {
         nextEl: ".button-next",
         prevEl: ".button-prev",
+        pagination: {
+          el: '.swiper-pagination',
+        },
       },
     });
   </script>
