@@ -4,10 +4,13 @@
   padding-left: 20px;
   padding-right: 20px;
 } */
-
+.container {
+  padding-bottom: 0;
+}
 .section {
   padding-top: 40px;
   padding-bottom: 0;
+  /* background-color: #efefef; */
 }
 /*----------------------------MOBILE-------------------------------- */
 @media screen and (min-width: 375px) {
