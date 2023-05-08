@@ -17,7 +17,7 @@ img {
 }
 
 .backdrop {
-  z-index: 20;
+  z-index: 100;
   position: fixed;
   top: 0;
   width: 100%;
@@ -27,15 +27,15 @@ img {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backdrop.is-hidden .modal {
+/* .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scaleY(0) rotate(-90deg);
-}
+} */
 .modal {
   position: absolute;
   max-width: 335px;
   height: 100%;
   overflow: scroll;
-
+  z-index: 22;
   width: 100%;
   top: 50%;
   left: 50%;
@@ -71,11 +71,11 @@ img {
   width: 10px;
   height: 10px;
 }
-.is-hidden {
+/* .is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-}
+} */
 
 .modal-watch-description {
   margin: 0;
@@ -102,8 +102,8 @@ img {
 }
 
 .modal-form {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
 }
 .modal-field {
   margin-bottom: 18px;
@@ -186,6 +186,9 @@ img {
   letter-spacing: -0.02em;
   color: rgba(20, 20, 20, 0.4);
 }
+.policy {
+  text-decoration: underline;
+}
 
 @media screen and (min-width: 768px) {
   .modal {
@@ -212,9 +215,8 @@ img {
   }
   .modal-form {
     width: 368px;
-  }
-  .modal-field {
-    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
   }
   .modal-textarea {
     width: 100%;
@@ -234,11 +236,15 @@ img {
     margin-bottom: 20px;
   }
   .modal-watch-model {
-    padding-right: 40px;
+    padding-right: 20px;
+    gap: 20px;
   }
 
   .modal-textarea {
     height: 166px;
+  }
+  .modal-price {
+    margin: 0;
   }
 }
 
@@ -252,8 +258,8 @@ img {
   }
   .modal-form {
     min-width: 508px;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
   }
   .modal-watch-btn {
     max-width: 0 auto;
