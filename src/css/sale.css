@@ -64,7 +64,7 @@ body {
 }
 
 .sale {
-  background-color: #efefef;
+  /* background-color: #efefef; */
   padding: 80px 0;
 }
 .sale-container {
@@ -210,7 +210,7 @@ body {
 
   .sale {
     padding: 80px 0;
-    background-color: #efefef;
+    /* background-color: #efefef; */
   }
   .sale-container {
     display: block;
@@ -355,7 +355,8 @@ body {
 
   .sale {
     display: flex;
-    background-color: #efefef;
+    /* background-color: #efefef; */
+    padding-top: 0;
   }
 
   .sale-content {
@@ -431,9 +432,9 @@ body {
     width: 1280px;
   }
 
-  .sale {
+  /* .sale {
     background-color: #efefef;
-  }
+  } */
 
   .sale-container {
     display: flex;

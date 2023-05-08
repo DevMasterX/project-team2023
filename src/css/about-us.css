@@ -1,21 +1,26 @@
-.container {
+/* .container {
   width: 100%;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
+} */
+.container {
+  padding-bottom: 0;
 }
-
+.section {
+  padding-top: 40px;
+  padding-bottom: 0;
+  /* background-color: #efefef; */
+}
 /*----------------------------MOBILE-------------------------------- */
 @media screen and (min-width: 375px) {
-  .container {
+  /* .container {
     width: 375px;
-  }
-  .section {
-    padding-top: 40px;
-  }
+  } */
+
   .about-title {
-    font-family: 'Epilogue', sans-serif;
-    font-style: normal;
+    /* font-family: 'Epilogue', sans-serif;
+    font-style: normal; */
     font-weight: 600;
     font-size: 32px;
     line-height: 1.25;
@@ -31,7 +36,7 @@
   }
 
   .about-gif {
-    background-image: url(../img/about-us/about-bg-mobile.jpg);
+    background-image: url(./img/about-us/about-bg-mobile.jpg);
     background-size: 335px 365px;
     width: 335px;
     height: 365px;
@@ -45,7 +50,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .about-gif {
-      background-image: url('../img/about-us/about-bg-mobile-2x.jpg');
+      background-image: url('./img/about-us/about-bg-mobile-2x.jpg');
     }
   }
 }
@@ -58,14 +63,13 @@
 }
 /*----------------------------TABLET-------------------------------- */
 @media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
+  .a-container {
+    padding-top: 0;
+    padding-bottom: 0;
   }
   .section {
     padding-top: 64px;
-    padding-bottom: 48px;
+    /* padding-bottom: 48px; */
   }
   .about-general {
     display: flex;
@@ -127,11 +131,18 @@
 }
 /*----------------------------DESKTOP-------------------------------- */
 @media screen and (min-width: 1280px) {
-  .container {
+  /* .container {
     width: 1280px;
     padding-left: 52px;
     padding-right: 52px;
+  } */
+
+  .a-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+
   .section {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -148,14 +159,16 @@
   }
   .about-item-general {
     display: flex;
-    margin-left: auto;
-    gap: 20px;
+    margin-left: 110px;
+    gap: 40px;
   }
   .about-gif {
+    margin-right: 0;
+    margin-left: auto;
     background-image: url(../img/about-us/about-bg-tablet.jpg);
-    background-size: 704px 465px;
-    width: 704px;
-    height: 465px;
+    background-size: 892px 500px;
+    width: 892px;
+    height: 500px;
     object-fit: cover;
   }
 

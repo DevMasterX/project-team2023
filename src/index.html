@@ -1,64 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./public/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Watch Spot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vanilla App Template</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="./css/styles.css" />
-</head>
+  <body>
+    <load src="partials/header.html" />
+    <main>
+      <load src="partials/hero.html" />
+      <load src="partials/about-us.html" />
+      <load src="partials/catalog.html" />
+      <load src="partials/new-watches.html" />
+      <load src="partials/sale.html" />
+    </main>
+    <load src="partials/footer.html" />
+    <load src="partials/buy-now.html" />
+    <load src="partials/burger-menu.html" />
 
-<body>
-  <load src="partials/header.html" />
-  <main>
-    <load src="partials/hero.html" />
-    <load src="partials/about-us.html" />
-    <load src="partials/catalog.html" />
-    <load src="partials/new-watches.html" />
-    <load src="partials/sale.html" />
-  </main>
-  <load src="partials/footer.html" />
-  <load src="partials/buy-now.html" />
-  <load src="partials/burger-menu.html" />
-
-  <!-- <section>
+    <!-- <section>
       <h1>Lorem ipsum dolor sit amet.</h1>
       
       <img src="./img/javascript.svg" alt="" />
     </section> -->
 
-  <!-- Loads the specified .html file -->
-  <load src="partials/vite-promo.html" />
+    <!-- Loads the specified .html file -->
+    <load src="partials/vite-promo.html" />
 
-  <script type="module" src="/main.js"></script>
-  <!-- Swiper -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-  <!-- Initialize Swiper -->
-  <script>
-    const swiper = new Swiper(".swiper", {
-      slidesPerView: 1,
-      spaceBetween: 10,
-      loop: true,
-      keyboard: {
-        enabled: true,
-      },
-      navigation: {
-        nextEl: ".button-next",
-        prevEl: ".button-prev",
-        pagination: {
-          el: '.swiper-pagination',
+    <script type="module" src="/main.js"></script>
+    <!-- Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      const swiper = new Swiper('.swiper', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: true,
+        keyboard: {
+          enabled: true,
         },
-      },
-    });
-  </script>
-</body>
-
+        navigation: {
+          nextEl: '.button-next',
+          prevEl: '.button-prev',
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        },
+      });
+    </script>
+  </body>
 </html>
