@@ -48,28 +48,15 @@ span {
   gap: 12px;
 }
 .swiper-control {
-  display: flex;
-  align-items: end;
   width: 266px;
-  justify-content: space-between;
   margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
 }
+
 .swiper {
   margin: 0;
   width: 266px;
-}
-.swiper-img-number {
-  display: flex;
-
-  font-family: 'Epilogue';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.29;
-  align-items: center;
-  letter-spacing: -0.02em;
-  margin-bottom: 4px;
-  color: #ffffff;
 }
 
 .swiper-strip {
@@ -77,7 +64,27 @@ span {
   width: 32px;
   background-color: #ffffff;
   height: 1px;
-  margin-inline: 6px;
+  margin: 0 2px 5px 6px;
+}
+.swiper-pagination {
+  margin-top: 20px;
+  position: unset;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  align-items: center;
+  letter-spacing: -0.02em;
+  width: fit-content;
+  color: #ffffff;
+  display: block;
+}
+.swiper-pagination-current::before {
+  content: '0';
+}
+.swiper-pagination-total::before {
+  content: '0';
 }
 .hero-text {
   display: block;
@@ -130,6 +137,9 @@ span {
   }
 }
 @media screen and (min-width: 1280px) {
+  .hero {
+    padding-block: 80px;
+  }
   .hero-tablet {
     display: none;
   }
@@ -137,7 +147,6 @@ span {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
     row-gap: 43px;
   }
 
@@ -151,8 +160,5 @@ span {
   }
   .swiper {
     margin-top: auto;
-  }
-  .hero {
-    padding-block: 80px;
   }
 }

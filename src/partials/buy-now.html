@@ -1,6 +1,6 @@
-<div class="backdrop is-hidden">
-  <div class="modal" data-modal>
-    <button type="button" data-modal-close class="modal-close-btn">
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button type="button" class="modal-close-btn" data-modal-close>
       <svg class="icon-x">
         <use href="./img/icons.svg#icon-x"></use>
       </svg>
@@ -75,11 +75,10 @@
         <button class="modal-button btn" type="submit">Submit</button>
         <p class="modal-privacy">
           By clicking on "Submit" button, you agree to our
-          <a href="#"> Privacy Policy</a>, and allow Prommodo to use this
-          information for marketing purposes.
+          <a class="modal-policy" href="#"> Privacy Policy</a>, and allow
+          Prommodo to use this information for marketing purposes.
         </p>
       </div>
     </form>
   </div>
 </div>
-<script src="../js/modal.js"></script>
