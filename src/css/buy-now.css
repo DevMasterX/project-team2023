@@ -248,7 +248,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 1280px) {
   .modal {
     width: 904px;
   }
@@ -258,14 +258,6 @@ img {
   }
   .modal-form {
     min-width: 508px;
-    /* height: auto; */
-  }
-  .modal-watch-btn {
-    max-width: 0 auto;
-  }
-  .modal-close-btn {
-    width: 24px;
-    height: 24px;
   }
 
   .modal-field:not(:last-child) {
