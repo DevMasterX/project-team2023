@@ -45,6 +45,9 @@
   top: 29px;
   right: 20px; */
 }
+.header-phone {
+  display: none;
+}
 .header-img {
   width: 14px;
   height: 14px;
@@ -152,9 +155,9 @@
   .header-menu {
     display: none;
   }
-  .header-phone {
+  /* .header-phone {
     display: none;
-  }
+  } */
 }
 
 @media screen and (min-width: 768px) {
@@ -163,8 +166,8 @@
   }
   .header {
     padding-top: 20px;
-    padding-right: 32px;
-    padding-left: 32px;
+    /* padding-right: 32px;
+    padding-left: 32px; */
   }
   .container-header {
     width: 768px;
@@ -205,6 +208,7 @@
   }
 
   .header-phone {
+    display: flex;
     min-width: 159px;
     height: 48px;
     cursor: pointer;
