@@ -199,7 +199,7 @@ img {
   .button-roll {
     width: 122px;
     height: 50px;
-    padding: 18px 35px 18px 35px;
+    /* padding: 18px 35px 18px 35px; */
   }
 
   .section-catalog-item:nth-last-child(-n + 2) {
