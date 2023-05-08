@@ -34,7 +34,7 @@ img {
 .modal {
   position: absolute;
   max-width: 335px;
-  height: 100%;
+  height: auto;
   overflow: scroll;
   z-index: 22;
   width: 100%;
@@ -200,6 +200,7 @@ img {
 @media screen and (min-width: 768px) {
   .modal {
     max-width: 744px;
+
     overflow: scroll;
     padding: 40px;
     background-color: #ffffff;
