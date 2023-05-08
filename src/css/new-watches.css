@@ -1,6 +1,10 @@
-.section-new-watches {
-  padding-bottom: 80px;
+/* .section-new-watches {
+  background-color: #efefef;
+} */
+.n-container {
+  padding-top: 0;
 }
+
 .section-new-h2 {
   font-weight: 300;
   font-size: 12px;
@@ -38,6 +42,8 @@
   .section-new-watches {
     padding-top: 80px;
     padding-bottom: 80px;
+
+    background-color: #ffffff;
   }
   .section-new-h3 {
     margin-bottom: 80px;
