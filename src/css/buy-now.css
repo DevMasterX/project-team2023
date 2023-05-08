@@ -42,7 +42,7 @@ img {
     0px 0px 36.2375px rgba(0, 0, 0, 0.025),
     0px 0px 18.1704px rgba(0, 0, 0, 0.0196296),
     0px 0px 8.77546px rgba(0, 0, 0, 0.012037);
-  border-radius: 8px;
+
   background-color: #ffffff;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -257,6 +257,7 @@ img {
 
 @media screen and (min-width: 1280px) {
   .modal {
+    border-radius: 8px;
     width: 904px;
   }
 
