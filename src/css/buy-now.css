@@ -164,6 +164,13 @@ img {
   outline: transparent;
   resize: none;
 }
+.btn {
+  display: block;
+  border-radius: 8px;
+  padding: 18px 116px;
+  width: 100%;
+  cursor: pointer;
+}
 .modal-button {
   margin: 0 auto;
   margin-bottom: 12px;
@@ -178,15 +185,15 @@ img {
   line-height: 1.17;
   text-align: center;
   text-transform: uppercase;
+  outline: transparent;
   color: #ffffff;
+  border: 1px solid #1e2827;
   background-color: #1e2827;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.btn {
-  display: block;
-  border-radius: 8px;
-  padding: 18px 116px;
-  width: 100%;
+.modal-button:hover,
+.modal-button:focus {
+  border-color: #ffffff;
 }
 .modal-privacy {
   font-family: 'Epilogue';
