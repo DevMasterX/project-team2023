@@ -89,9 +89,9 @@ img {
 
 .modal-watch-description {
   margin: 0;
-
   width: 276px;
 }
+
 .modal-model {
   font-style: normal;
   font-weight: 400;
@@ -101,6 +101,7 @@ img {
   color: #141414;
   margin-bottom: 4px;
 }
+
 .modal-watch-model {
   margin-bottom: 40px;
 }
@@ -121,6 +122,7 @@ img {
 .modal-field {
   margin-bottom: 18px;
 }
+
 .input-text {
   display: block;
   font-style: normal;
@@ -189,14 +191,14 @@ img {
   padding: 16px 32px;
   letter-spacing: 0.04em;
   display: inline-block;
+  font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   text-align: center;
   text-transform: uppercase;
-  border-radius: 8px;
+  outline: transparent;
   color: #ffffff;
-  border-color: transparent;
   background-color: #1e2827;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -260,6 +262,7 @@ img {
     width: 24px;
     height: 24px;
   }
+
   .modal-field-comment {
     margin-bottom: 20px;
   }
