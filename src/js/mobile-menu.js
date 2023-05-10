@@ -25,4 +25,21 @@
     openMenuBtn.setAttribute('aria-expanded', false);
     bodyScrollLock.enableBodyScroll(document.body);
   });
+
+  const links = document.querySelectorAll('a[href^="#"]');
+
+  links.forEach(link => {
+    link.addEventListener('click', event => {
+      event.preventDefault();
+      mobileMenu.classList.remove('is-hidden');
+      const href = link.getAttribute('href');
+      const target = document.querySelector(href);
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth' });
+        if (mobileMenu.classList.contains('is-open')) {
+          toggleMenu();
+        }
+      }
+    });
+  });
 })();
