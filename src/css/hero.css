@@ -9,20 +9,16 @@ span {
   padding-block: 74px 40px;
   background-color: #141414;
 }
-
 .hero-title {
   font-family: 'Epilogue';
   font-style: normal;
   font-weight: 600;
   font-size: 38px;
   line-height: 1.05;
-
   letter-spacing: -0.04em;
-
   color: #ffffff;
   margin-bottom: 60px;
 }
-
 .hero-icon {
   width: 32px;
   height: 32px;
@@ -42,7 +38,6 @@ span {
   border: none;
   outline: none;
 }
-
 .hero-swiper-nav {
   display: flex;
   gap: 12px;
@@ -53,12 +48,10 @@ span {
   display: flex;
   justify-content: space-between;
 }
-
 .swiper {
   margin: 0;
   width: 266px;
 }
-
 .swiper-strip {
   display: inline-block;
   width: 32px;
@@ -95,9 +88,7 @@ span {
   font-weight: 300;
   font-size: 14px;
   line-height: 1.29;
-
   letter-spacing: -0.02em;
-
   color: #ffffff;
 }
 @media screen and (min-width: 768px) {
@@ -107,12 +98,14 @@ span {
   .hero-title {
     font-size: 60px;
     line-height: 1.03;
+    order: 1;
+    margin-bottom: 60px;
   }
   .swiper {
     margin-top: auto;
     width: 436px;
+    order: 2;
   }
-
   .swiper-control {
     width: 436px;
   }
@@ -120,13 +113,13 @@ span {
     width: 40px;
   }
   .hero-text {
+    order: 3;
     margin: 74px 0 0 0;
   }
-  .hero-tablet-wrap {
+  .hero-tablet {
     display: flex;
-    gap: 20px;
-
-    margin-bottom: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
   .hero-btn {
     height: 40px;
@@ -135,30 +128,29 @@ span {
     width: 40px;
     height: 40px;
   }
+  .hero-main-pic {
+    margin-top: 40px;
+    order: 4;
+  }
 }
 @media screen and (min-width: 1280px) {
+  .hero-text {
+    display: inline-block;
+    margin: 0;
+    max-width: 282px;
+    order: 2;
+  }
   .hero {
     padding-block: 80px;
   }
-  .hero-tablet {
-    display: none;
+  .swiper {
+    order: 3;
   }
-  .hero-desktop {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    row-gap: 43px;
-  }
-
   .hero-title {
     margin: 0;
     width: 750px;
   }
-  .hero-text {
-    margin: 0;
-    max-width: 282px;
-  }
-  .swiper {
-    margin-top: auto;
+  .hero-main-pic {
+    margin-top: 43px;
   }
 }
