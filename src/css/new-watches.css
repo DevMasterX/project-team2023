@@ -1,6 +1,8 @@
-/* .section-new-watches {
-  background-color: #efefef;
-} */
+.section-new-watches {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .n-container {
   padding-top: 0;
 }
@@ -29,7 +31,8 @@
 
 @media screen and (min-width: 768px) {
   .section-new-watches {
-    padding-bottom: 128px;
+    padding-top: 64px;
+    padding-bottom: 64px;
   }
   .section-new-h3 {
     font-size: 40px;
