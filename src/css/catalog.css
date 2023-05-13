@@ -14,8 +14,8 @@
   text-decoration: none;
 }
 .section-catalog {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .button-roll {
   /* font-style: normal; */
@@ -195,8 +195,8 @@ img {
 
 @media screen and (min-width: 768px) {
   .section-catalog {
-    padding-top: 128px;
-    padding-bottom: 128px;
+    padding-top: 64px;
+    padding-bottom: 64px;
   }
 
   .button-roll {
